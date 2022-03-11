@@ -1,0 +1,11 @@
+framework module MathA {
+  umbrella header "MathA.h"
+
+  export *
+  module * { export * }
+}
+
+module MathA.Swift {
+    header "MathA-Swift.h"
+    requires objc
+}

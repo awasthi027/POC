@@ -1,0 +1,11 @@
+framework module MathB {
+  umbrella header "MathB.h"
+
+  export *
+  module * { export * }
+}
+
+module MathB.Swift {
+    header "MathB-Swift.h"
+    requires objc
+}
